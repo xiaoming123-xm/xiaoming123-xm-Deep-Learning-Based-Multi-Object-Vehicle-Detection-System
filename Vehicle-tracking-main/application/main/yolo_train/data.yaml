@@ -1,0 +1,4 @@
+train: /path/to/train/images
+val: /path/to/val/images
+nc: 6
+names: ['car', 'bus', 'truck', 'motorcycle', 'bicycle', 'person']

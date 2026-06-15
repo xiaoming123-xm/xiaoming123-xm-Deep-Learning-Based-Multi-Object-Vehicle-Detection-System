@@ -1,0 +1,31 @@
+device: ''  # 建议改为 'cuda' 或 'cpu'
+
+# DeepSORT 配置
+config_deepsort: ../../settings/deep_sort.yaml # 调整为实际存放位置
+deep_sort_weights: ./models/ckpt.t7        # 调整为实际模型路径
+
+# YOLO 检测参数
+yolo_weights: ./models/yolov8n.pt
+agnostic_nms: false
+augment: false
+classes: [0, 1, 2, 3, 5, 7]  # 车辆相关类别
+conf_thres: 0.35
+imgsz: [640, 640]
+iou_thres: 0.5
+max_det: 1000
+
+# 输入输出设置
+fourcc: mp4v
+source: ./Vehicle-tracking-main/videos          # 建议指向文件夹而非单个文件
+output: ./inference/output/
+save_csv: true
+save_txt: false
+save_vid: true
+show_vid: false
+
+# 检测区域设置（按您注释调整为全屏）
+upper_ratio: 0.0      # 画面最顶部
+lower_ratio: 1.0      # 画面最底部
+
+# 数据库
+upload_db: false
