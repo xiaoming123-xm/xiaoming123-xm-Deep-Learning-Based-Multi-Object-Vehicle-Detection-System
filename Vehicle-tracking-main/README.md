@@ -145,7 +145,6 @@ All detection results are automatically saved to:
 
 ```bash
 git clone https://github.com/xiaoming123-xm/xiaoming123-xm-Deep-Learning-Based-Multi-Object-Vehicle-Detection-System.git
-cd vehicle-tracking
 ```
 
 ### 2. Install Dependencies
