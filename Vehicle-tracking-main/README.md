@@ -90,9 +90,7 @@ Vehicle-tracking-main/
 ├── settings/
 │   └── config.yml                     # System configuration file
 │
-├── datasets/                          # Dataset directory (for training)
 ├── yolo_train/                        # YOLOv8 training scripts
-├── util/                              # Legacy utilities (retained from original project)
 │
 ├── requirements.txt                   # Python dependency list
 └── README.md                          # This file
