@@ -38,7 +38,7 @@ This project is my **undergraduate graduation design**. It is developed based on
 - **Multi-vehicle tracking** — track multiple vehicles simultaneously; tracked targets are highlighted with a white border, others are hidden
 - **Progressive trajectory** — vehicle trails accumulate frame by frame in real time, with gradient line thickness showing direction of travel
 - **Playback control** — draggable progress bar, pause / resume, loop playback
-- **Video source switching** — supports webcam (index 0) and local video files (mp4 / avi / mov / mkv / wmv / flv / ts)
+- **Video source switching** — supports webcam (index 0) and local video files (avi)
 - **Three-level playback priority** — JSON annotation replay (with filtering) → pre-rendered video → fresh AI detection
 - **Auto-save results** — JSON annotation files and annotated MP4 videos saved automatically; no re-detection needed on next open
 - **Real-time system log** — right-side log panel shows running status, FPS, vehicle count, and more
@@ -107,7 +107,7 @@ Place test video files in:
 .\videos\
 ```
 
-Supported formats: `.mp4`  `.avi`  `.mov`  `.mkv`  `.wmv`  `.flv`  `.ts`
+Supported formats:  `.avi` 
 
 You can also click **"Select video file..."** in the interface to load a video from any location.
 
