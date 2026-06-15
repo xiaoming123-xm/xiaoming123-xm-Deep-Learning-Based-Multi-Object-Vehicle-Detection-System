@@ -75,7 +75,7 @@ Vehicle-tracking-main/
 │   └── main_window.py                 # Main window (video display, controls, log)
 │
 ├── videos/                            # Test video directory — place test videos here
-│   └── *.mp4 / *.avi / ...            # Supported: mp4, avi, mov, mkv, wmv, flv, ts
+│   └── *.avi                           # Supported:  avi
 │
 ├── application/
 │   └── main/
