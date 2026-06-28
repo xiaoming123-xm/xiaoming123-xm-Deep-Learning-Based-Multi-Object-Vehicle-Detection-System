@@ -45,7 +45,7 @@ platformdirs==4.3.6
 polars==1.8.2
 protobuf==5.29.6
 psutil==7.2.2
-psycopg2==2.9.2
+psycopg2-binary==2.9.2
 pyasn1==0.6.3
 pyasn1-modules==0.4.2
 pycodestyle==2.12.1
